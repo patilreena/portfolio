@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.banner img {
+	width: 100%;
+}
+.foot .foot-logo {
+	display: flex;
+	margin-top: 2rem;
+	margin-left: 47%;
+}
+.top-navbar .home {
+	padding-left:70px;
+    padding-right:50px;
+}
+.top-navbar .about {
+	padding-left:70px;
+    padding-right:50px;
+}
+.top-navbar .logo {
+	padding-left:30%;
+    padding-right:70px;
+}
+.top-navbar .work {
+	padding-left:100px;
+    padding-right:50px;
+}
+.top-navbar .resume {
+	padding-left:100px;
+    padding-right:70px;
+}
+.top-navbar .contact {
+	padding-left:70px;
+    padding-right:50px;
+}
