@@ -1,20 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-
-body{
-	font-family: 'Roboto Slab', serif;
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+p {
+  line-height: 1.5;
+}
+
 ul{
 	list-style: none;
 	padding: 0;
 }
-h1{
-	color: #827e7e
+
+.form-control {
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.main-title{
+  	color: #2c3e50;
+	margin: 60px 0;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title{
+  color: #2c3e50;
+}
+
+.subtitle{
+	font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 15px 0;
 }
 
 .fa-3{font-size: 3rem;}
-.navbar .navbar-nav{width: 100%;}
-.navbar .navbar-nav .nav-link{padding: 1.5rem 1rem;text-transform: uppercase;color: #fff}
+
+.navbar{
+	background-color: #fff;
+}
+
+.navbar .navbar-nav{
+	width: 100%;
+}
+
+.navbar .navbar-nav .nav-link{
+	padding: 1.5rem 1rem;
+	text-transform: uppercase;
+	color: #212529
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link{
+	color: #fff
+}
 
 .navbar .logo .fa{
 	transition: all 0.3s ease-in-out 0s;
@@ -32,6 +87,7 @@ h1{
     top: 0;
     left: 0;
     right: 0;
+    background-size: cover; 
 }
 
 .banner .banner-head{
@@ -40,7 +96,7 @@ h1{
 	font-size: 6rem;
 	line-height: 6rem;
 	font-family: HeeboHeavy,Heebo,Helvetica,Arial,sans-serif;
-	padding-top: 13rem;
+	padding-top: 10rem;
 }
 
 .footer{
@@ -86,9 +142,6 @@ h1{
 	background-color: #dc3545;
 }
 
-.about {
-	padding: 3rem 0;
-}
 
 .about .profilepic {
     border-radius: 50%;
@@ -110,15 +163,46 @@ h1{
 .skills li img.nodejs{ 
 	width: 5rem;
 }
+.work{
+	margin-bottom: 50px;
+}
 .work .lang{
 	font-weight: bold;
 }
-.map iframe{
+
+.wrapper {
+  position: relative;
+}
+
+
+.contact{
+	padding-bottom: 50px;
+}
+
+.contact .btn{
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    border-radius: 0; 
+}
+
+.contact .map {
+	margin-top: 50px;
+}
+
+.contact .map iframe{
 	width: 100%;
 	height: 400px;
 	border: 0;
 }
 
-.contact {
-	padding: 4rem 0 0;
+
+@media (max-width: 575px) {
+	.banner .banner-head {
+		font-size: 4rem;
+		padding-top: 5rem;
+	}
+	.skills li img{
+		margin: 1rem;
+	}
 }
