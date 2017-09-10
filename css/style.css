@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-.body{
 
+body{
+	font-family: 'Roboto Slab', serif;
 }
-.navbar {padding: 0; background-color:#f3f3f3	}
-.navbar .navbar-nav{width: 100%;}
-.navbar .navbar-nav .nav-link{padding: 1.5rem 1rem;text-transform: uppercase;}
-.navbar .navbar-nav .logo .nav-link{padding: 1rem}
+ul{
+	list-style: none;
+	padding: 0;
+}
+h1{
+	color: #827e7e
+}
 
 .fa-3{font-size: 3rem;}
+.navbar .navbar-nav{width: 100%;}
+.navbar .navbar-nav .nav-link{padding: 1.5rem 1rem;text-transform: uppercase;color: #fff}
+
+.navbar .logo .fa{
+	transition: all 0.3s ease-in-out 0s;
+}
+.navbar .logo .fa:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
 
 .home {
 	background: url(../images/home2.png) repeat-x;
@@ -31,10 +46,18 @@
 .footer{
 	padding: 1rem 0;
 	overflow: hidden;
-	background-color: #f3f3f3;
+	background-color: #2e2e2e;
+	color: #CCC;
+}
+.footer .copyright{
+	font-size: 80%;
 }
 .footer ul{
 	list-style: none;
+	padding: 0;
+}
+.footer .social-links a{
+	color: #CCC;
 }
 .footer .social-links span{
 	padding: 7px;
@@ -62,28 +85,32 @@
 .footer .social-links .email:hover{
 	background-color: #dc3545;
 }
+
 .about {
-	margin-top: 2rem;
+	padding: 3rem 0;
 }
-.about h3 {
-	color: #1693A5;
-	font-weight: bold;
+
+.about .profilepic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border: 0;
+
 }
-.about p {
-	line-height: 2rem;
+
+.skills li img{ 
+	width: 4rem;
+	margin: 2rem;
 }
-.about a {
-	text-decoration: underline;
+
+.skills li img.rails{ 
+	width: 9rem;
 }
-.work h3 {
-	color: #1693A5;
-	font-weight: bold;
+.skills li img.nodejs{ 
+	width: 5rem;
 }
-.work p {
-	line-height: 2rem;
-}
-.work .link {
-	color: #1693A5;
+.work .lang{
 	font-weight: bold;
 }
 .map iframe{
@@ -94,12 +121,4 @@
 
 .contact {
 	padding: 4rem 0 0;
-}
-.about .profilepic {
-	  border-radius: 50%;
-	  width: 300px;
-	  height: 300px;
-	  padding: 0;
-	  border: 3px solid #02aab0;
-
 }

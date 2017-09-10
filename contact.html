@@ -10,27 +10,27 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
- <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-    <ul class="navbar-nav justify-content-around">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About </a>
-      </li>
-      <li class="nav-item logo">
-        <a class="nav-link" href="index.html">
-          <i class="fa fa-registered text-danger fa-3"> </i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="work.html">Work</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-</nav>
+   <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
+   <a class="navbar-brand logo ml-3" href="index.html">
+      <i class="fa fa-registered text-danger fa-3"> </i>
+   </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="work.html">Work</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      </div>
+  </nav>
  <div class="map">
  <iframe src="//www.google.com/maps/embed/v1/place?q=308%2F11+Australia+Ave,+Sydney+Olympic+Park+NSW+2127
       &attribution_source=Google+Maps+Embed+API
@@ -40,28 +40,28 @@
   </div>
   <div class="container contact">
   <h4>Send an Email</h4>
-  <form>
+  <form action="https://formspree.io/reena.patil@outlook.com" method="POST">
     <div class="form-group row">
       <label for="name" class="col-sm-3 col-form-label text-right">Name</label>
       <div class="col-sm-9">
-        <input type="text" class="form-control" id="name" placeholder="Name">
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
       </div>
     </div>
     <div class="form-group row">
       <label for="email" class="col-sm-3 col-form-label text-right">Email</label>
       <div class="col-sm-9">
-        <input type="email" class="form-control" id="email" placeholder="Email">
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
       </div>
     </div>
     <div class="form-group row">
       <label for="message" class="col-sm-3 col-form-label text-right">Message</label>
       <div class="col-sm-9">
-        <textarea type="text" class="form-control" id="message" placeholder="Message"></textarea>
+        <textarea type="text" class="form-control" id="message" name="message" placeholder="Your message"></textarea>
       </div>
     </div>
     <div class="form-group row justify-content-end">
       <div class="col-sm-9 text-left">
-        <button class="btn btn-md">Send</button>
+        <button type="submit" class="btn btn-md">Send</button>
       </div>
     </div>
   </form>
@@ -70,22 +70,17 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="logo p-3">
-            <a class="nav-link" href="index.html">
-              <i class="fa fa-registered text-danger fa-3"> </i>
-          </a>
-          </div>
           <ul class="social-links d-flex justify-content-center">
-            <li><a href="#" class="p-5"><span class="twitter"><i class="fa fa-twitter"></i></span></a></li>
-            <li><a href="#" class="p-5"><span class="linkedin"><i class="fa fa-linkedin"></i></span></a></li>
-            <li><a href="#" class="p-5"><span class="github"><i class="fa fa-github"></i></span></a></li>
-            <li><a href="mailto:reena.patil@outlook.com" class="p-5"><span class="email"><i class="fa fa-envelope"></i></span></a></li>
+            <li><a href="#" class="p-1"><span class="twitter"><i class="fa fa-twitter"></i></span></a></li>
+            <li><a href="https://www.linkedin.com/in/reena-patil-669795139/" target="_blank" class="p-1"><span class="linkedin"><i class="fa fa-linkedin"></i></span></a></li>
+            <li><a href="https://github.com/patilreena" target="_blank" class="p-1"><span class="github"><i class="fa fa-github"></i></span></a></li>
+            <li><a href="mailto:reena.patil@outlook.com" class="p-1"><span class="email"><i class="fa fa-envelope"></i></span></a></li>
           </ul>
+          <p class="text-center copyright">Homemade by me © 2017</p>
         </div>
       </div>
     </div>
   </footer>
-
 
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
