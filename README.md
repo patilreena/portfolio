@@ -80,6 +80,9 @@ Now that people have an interest in you and your work, encourage them to follow 
 
 ## Design Methodology Followed
 
+ Demonstrate your understanding of your site's audience
+ In considering the site's audience, user stories were created. These can be viewed https://trello.com/b/SXUAC3Nc/portfolio
+
 ### Pintrest Mood board
 This design is finalised based on the inspirations that I drew from quite few deisgn on the web , I have collated them in a pinterest moodboard. 
 
