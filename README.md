@@ -81,8 +81,12 @@ Now that people have an interest in you and your work, encourage them to follow 
 ## Design Methodology Followed
 
 ### Pintrest Mood board
-This design is finalised based on the inspirations that I drew from quite few deisgn on the web , I have collated them in a pinterest moodboard.
+This design is finalised based on the inspirations that I drew from quite few deisgn on the web , I have collated them in a pinterest moodboard. 
 
+https://au.pinterest.com/reenavg33/portfolio/
+
+
+![Pinterest Moodboard](docs/images/moodboard.png "Pinterest Moodboard")
 
 
 ### Style guide
@@ -90,7 +94,9 @@ I have followed a consitent style guide that I created for this portfolio. check
 
 ### Wireframe
 
-
+![Home Page](docs/images/homepage.png "Home Page")
+![Portfolio Page](docs/images/work.png "Portfolio Page")
+![Contact Page](docs/images/contact.png "Contact Page")
 
 
 
