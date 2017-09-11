@@ -12,10 +12,10 @@ Personal portfolio website is all about promoting you. You are a brand, and your
 
 Building an online portfolio is all about it establishes credibility and expands your professional network, I have covered below aspects in my portfolio,
 
-Who you are
-What kind of work you do
-How you do that work
-Where you want to go next
+* Who you are
+* What kind of work you do
+* How you do that work
+* Where you want to go next
 
 ## Usability 
 
@@ -76,13 +76,13 @@ Now that people have an interest in you and your work, encourage them to follow 
 ### Pintrest Mood board
 This design is finalised based on the inspirations that I drew from quite few deisgn on the web , I have collated them in a pinterest moodboard.
 
+
+
 ### Style guide
-I have followed a consitent style guide that I created for this portfolio. checkout the [style guide]().
+I have followed a consitent style guide that I created for this portfolio. checkout the [style guide](https://patilreena.github.io/style-guide/).
 
 ### Wireframe
 
-
-###
 
 
 
